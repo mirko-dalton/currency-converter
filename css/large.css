@@ -1,0 +1,21 @@
+@media (min-width: 768px){
+
+    .container {
+        height: 400px;
+    }
+
+    .container-title {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .title {
+        justify-content: space-between;   
+    }
+
+    h1{ 
+        font-weight: bold;
+        font-size: 50px
+    }
+
+}
