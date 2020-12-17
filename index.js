@@ -6,7 +6,7 @@ let amountConvertAfter = document.querySelector('.amount-convert-after-inp');
 let onButtonClickToConvert = document.getElementById('click-convert-btn');
 let currencySelected = selectCurrency.value;
 
-selectCurrency.addEventListener('change', function() {
+selectCurrency.addEventListener('change', function () {
     currencySelected = this.value;
 });
 
@@ -25,7 +25,7 @@ async function getConvertCurrency() {
         })
         .catch(error => error + alert('Błąd podczas pobierania danych'));
 
-}
+};
 
 function calculateConvertCurrency(currencyResult, currencyDate) {
 
